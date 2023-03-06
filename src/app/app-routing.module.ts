@@ -13,15 +13,15 @@ const routes: Routes=[
     },
     {
         path:'region',
-        component:PorRegionComponent,                
+        component:PorRegionComponent               
     },
     {
         path:'capital',
-        component:PorCapitalComponent,                
+        component:PorCapitalComponent                
     }, 
     {
         path:'pais/:id',
-        component:VerPaisComponent,                
+        component:VerPaisComponent               
     },
     {
         path:'**',
